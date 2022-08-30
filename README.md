@@ -1,6 +1,15 @@
 # KingScript
 Roblox Lua Framework
 
+## Structure Setup
+
+Parent the contents of ReploicatedRootModules to ReplicatedRoot
+
+Parent the contents of ClientRootModules to ClientRoot
+
+Parent the contents of ServerRootModules to ServerRoot
+
+
 ## Server setup Example
 
 ```lua

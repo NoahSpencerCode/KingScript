@@ -1,0 +1,13 @@
+local Handler = Instance.new('BindableEvent')
+
+Handler.Event:Connect(function(func,args)
+	func(args)
+end)
+
+local module = {}
+
+function module.Async(func,args)
+	Handler:Fire(func,args)
+end
+
+return module
