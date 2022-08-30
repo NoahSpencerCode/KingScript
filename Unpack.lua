@@ -4,6 +4,6 @@ main.ClientRoot.Parent = game.StarterPlayer.StarterPlayerScripts
 
 main.Root.Parent = game.ReplicatedStorage
 
-main.ServerRoot.Parent = game.ServerScriptService
+main.ReplicatedRoot.Parent = game.ReplicatedStorage
 
-main:Destroy()
+main.ServerRoot.Parent = game.ServerScriptService
